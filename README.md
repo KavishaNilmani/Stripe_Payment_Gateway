@@ -48,6 +48,7 @@ Create a .env file in the root folder and add your Stripe keys:
 
 ```bash
 STRIPE_SECRET_KEY=sk_test_your_secret_key_here
+PUBLISH_SECRET_KEY=pk_test_your_secret_key_here
 ```
 
 In checkout.js and status.js, replace: const stripe = Stripe("PUBLISH_SECRET_KEY");
