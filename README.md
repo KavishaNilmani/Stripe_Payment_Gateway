@@ -7,14 +7,23 @@ This project demonstrates how to integrate **Stripe Checkout** into a **Flask** 
 project/
 │
 ├── app.py # Flask app with route for checkout page
+
 ├── server.py # One-time script to create a PaymentIntent (can be removed if unused)
+
 ├── templates/
+
 │ └── checkout.html # HTML page to display Stripe Checkout form
+
 ├── static/
+
 │ ├── checkout.js # JavaScript logic to handle Stripe Elements
+
 │ └── status.js # (Optional) Payment status handling script
+
 ├── .env # Environment variables (STRIPE keys)
+
 ├── r.txt # Requirements file
+
 └── README.md # This file
 
 
