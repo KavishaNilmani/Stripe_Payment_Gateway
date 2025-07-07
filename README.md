@@ -5,6 +5,7 @@ This project demonstrates how to integrate **Stripe Checkout** into a **Flask** 
 ## 📦 Project Structure
 
 project/
+
 │
 ├── app.py # Flask app with route for checkout page
 
